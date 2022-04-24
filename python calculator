@@ -1,0 +1,18 @@
+print("Hey mate this is biplov")
+print("this is a helpful calculator please enter the details")
+sum = 0
+while (True):
+    userInput = int(input("Enter the Price : \n"))
+    if (userInput!='q'):
+        sum = sum + int(userInput)
+        print("Your Order Total So far : ", sum)
+
+
+    else:
+        print("Thanks For Using Our Calculator")
+        print("The Total Sum : ", sum )
+        break 
+    sum = 0
+    while (True):
+        userInput = int(imput("enter the price: 8"))
+
